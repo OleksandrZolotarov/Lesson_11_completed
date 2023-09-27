@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap);
+
+body {
+	font-family: Roboto, sans-serif;
+	color: #F5F5F5;
+	background-color: #F5F5F5;
+}
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+}
+
+[class*="__container"] {
+	margin: 0 auto;
+	max-width: 1020px;
+}
+
+.header {
+	position: relative;
+}
+
+.header__background {
+	background: url('../img/duotone.jpg') 50%/cover no-repeat;
+	min-height: 100vh;
+}
+
+.main {
+	position: relative;
+}
+
+.main__container {
+	background: #5D62B5;
+	border-radius: 40px;
+	position: relative;
+	margin-top: -80px;
+	margin-bottom: 120px;
+}
+
+.main__who-we-are::after {
+	content: "";
+	width: 555px;
+	height: 373px;
+	background: url('../img/Blob_2.svg')0 0/100% no-repeat;
+	left: 5%;
+	bottom: -4.8%;
+	position: absolute;
+	transform: rotate(151deg);
+	justify-content: center;
+	align-items: center;
+}
+
+.main__who-we-are::before {
+	content: "";
+	width: 201px;
+	height: 317px;
+	background: url('../img/stylizecircles.svg')0 0/100% no-repeat;
+	top: -110px;
+	right: -70px;
+	z-index: 5;
+	position: absolute;
+}
+
+.main__content {
+	padding: 100px 87px 0px 87px;
+
+}
+
+.main__content div:not(:last-child) {
+	margin-bottom: 54px;
+}
+
+.main__title {
+	margin-bottom: 33px;
+}
+
+.main__title {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	color: #F5F5F5;
+	text-transform: uppercase;
+	background: url('../img/overline_mark.svg')0 0/28px 27px no-repeat;
+	padding: 0px 0px 0px 35px;
+
+	min-height: 27px;
+}
+
+.main__body *:not(:last-child) {
+	margin-bottom: 36px;
+}
+
+
+
+.main__body {
+	position: relative;
+	z-index: 1;
+
+}
+
+.main__body h2 {
+	font-size: 36px;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	letter-spacing: 0px;
+	color: rgba(255, 255, 255, 1);
+
+	max-width: 583px;
+}
+
+.main__body p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #F5F5F5;
+
+}
+
+.main__image {
+	margin-bottom: 120px;
+	position: relative;
+	width: 877px;
+
+
+}
+
+.main__image:not(:last-child) {
+	margin-bottom: 100px;
+}
+
+.main__image:last-child {
+	margin-bottom: 120px;
+}
+
+img {
+	position: relative;
+	z-index: 2;
+	margin-bottom: -120px;
+	border-radius: 40px;
+	max-width: 100%;
+	border-bottom: 1px solid #000;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.footer__background {
+	background: url('../img/duotone.jpg') 50%/cover no-repeat;
+	min-height: 100vh;
+}
